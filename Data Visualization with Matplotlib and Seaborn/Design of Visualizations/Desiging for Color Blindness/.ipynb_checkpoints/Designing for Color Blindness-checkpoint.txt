@@ -1,0 +1,5 @@
+The most common form of color blindness is the red-green color blindness.
+
+People with this condition have trouble telling apart red from green.
+
+Visualization should be designed to include color blind people, especially by avoiding the red-green colors. Blue-orange is a better alternative.

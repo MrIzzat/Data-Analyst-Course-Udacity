@@ -1,0 +1,16 @@
+HTML stands for Hyper Text Markup Language
+
+HTML is a collection of tags. The label inside the "<>" shows the type of the element. The content between the tags is what is seen in the browser.
+The ending tag starts with "/" like <title></title>
+
+There are lots of tag types:
+
+* Heading elements <h1> - <h6>
+* Paragraph elements <p>
+* Image elements <img>
+* Span elements <span> Are used to group texts in another group of texts often for styling.
+* Head element <head> contains metadata information about the HTML page, like the character encoding or title.
+* Body element <body> contains the HTML, where all the tags are used.
+* HTML element <html> is just a container for all other elements except for the doctype tag
+* Doctype tag <!DOCTYPE html> is used to give information to the browser that the file is an HTML file. HTML files need to start with this tag.
+* div elements <div> are used to group chunks (tags) together, like a container.

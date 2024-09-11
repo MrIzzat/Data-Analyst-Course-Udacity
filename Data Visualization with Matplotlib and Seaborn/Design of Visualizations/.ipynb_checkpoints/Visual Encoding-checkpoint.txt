@@ -1,0 +1,9 @@
+Visual encoding is a mapping from data to display elements.
+
+Display elements include position (on x or y axis), the size of points or bars, the shape of points, texture, angle, length and more.
+
+The question is how to take the data and best display to audience using these elements.
+
+Two of the best methods for showing quantitative data are the position along the axis and the length.
+
+Humans are also drawn to contrast in color, so color should reserved for drawing an audience to a key finding.

@@ -1,0 +1,9 @@
+Common data structure issues are:
+
+* Column headers being values instead of variable names.
+* multiple variables being stored in one column.
+* Variables are stored in both rows and columns.
+* multiple types of observational units being stored in the same table
+* A single observation unit in multiple tables.
+
+These can be a basic guide to see if data is messy.

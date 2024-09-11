@@ -1,0 +1,50 @@
+There are four data types:
+
+1. Nominal
+2. Ordinal
+3. Interval
+4. Ratio data
+
+
+Nominal and Ordinal data are known as **qualitative** (categorical data).
+
+Interval and ratio data are known as **quantitative** (numerical).
+
+Quantitative data include a second kind of classifcaion, discrete and continuous data.
+
+
+
+Qualitative data are data that use non-numeric labels on the data.
+
+**Nominal data** is data that does not have any ordered labels. Like movie genres or names of countries.
+
+**Ordinal data** is data that have an order to their labels. Such as letter grades and rankings (1st>2nd...etc.)
+
+Even though sometimes qualitative data is captured numrically, they should not have nay numeric operations performed on them. Like adding the first and second 
+place wouldn't add up to the third place and so on.
+
+
+Quantitative data take data that allow for numeric operations. Such as year or temperature.
+
+
+**Interval data** refers to data that uses the stable scale within the interval. For example, 5 degress greater 10 celsius can be said to be 15, and 5 degrees less 
+is 5 degrees, thus it's an interval data type.
+
+**Ratio data** type is like an interval data but it needs a meaningful zero point where ratio judgments are meaningful. For example, it cannot be said that 10
+degrees is two times hotter than 5 degrees(because temperatures don't start at 0), therefore temperature cannot be a ratio type. Length of a document by word 
+count and weights can be considered to be ratio types.
+
+Ratio and Interval data can both be further classified into **discrete** and **continuous**.
+
+Discrete data can only take on specific values, like integers. They have a certain limit on their precision.
+
+Continuous data can take on any value, like float. They don't have any limit on their precision and can have many decimal points in their reading.
+
+Year and word count are examples of discrete values.
+
+Weight and temperature are examples of continous values.
+
+
+Likert data (data that is like a rating system: strongly disagree, disagree, neutral, agree, strongly agree) can be considered interval in some cases when the
+difference between each point can be represented by a percentage, like 13% negative, 26 percent negative and so on. It'll depend on how data analyst determine 
+the scale.

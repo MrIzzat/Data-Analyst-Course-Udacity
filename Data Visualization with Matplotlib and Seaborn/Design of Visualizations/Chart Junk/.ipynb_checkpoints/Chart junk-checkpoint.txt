@@ -1,0 +1,16 @@
+It's important to know what should be left out when building a visualization.
+
+Chart junk refers all information in a visualizaiton that are not necessary to comprehend the main message. They could distract the viewer from the message.
+
+Information can be considered chart junk if they are not part of the minimal information needed for clear communication.
+
+
+A few examples of chart junk:
+
+* Heavy or dark grid lines (the ones in the background)
+* Unnecessary text
+* Pictures sorroudning or within graphs
+* Shading or 3D components
+* Ornaments charts or axes.
+
+

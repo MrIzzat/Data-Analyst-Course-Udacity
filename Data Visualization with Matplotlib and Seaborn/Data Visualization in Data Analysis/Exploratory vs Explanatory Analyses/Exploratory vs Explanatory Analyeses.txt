@@ -1,0 +1,25 @@
+Visualizations can be used for two main purposes: Exploratory analysis and explanatory analysis.
+
+
+**Exploratory analysis** is done behind the scenes. During this analysis, the goal is to search for relationships in the data, or hidden insights. Once the data 
+has been collected, questions can be asked about it. The way that the data is analyzed to answer these questions is called exploratory. Visualizations for 
+exploratory purposes do not need to be perfect, the goal is just to look for patterns.
+
+
+**Explanatory Analysis** is done after finding an insight. Visualization behind this analysis need provide an explanation to the viewer about that insight, they 
+need to be able to understand that insight by looking at that visualization. Sometimes, the explanatory visulzation can be found during the exploratory process. 
+Instead of sharing all information related to the exploratory process, only the most important information is shared and put into the visualization.
+
+
+There are 5 steps in the data analysis process:
+
+1. Extracting, the data is gathered from a source.
+
+2. Cleaning, the data cleaned from issues like removing missing, data removing unncessary columns etc.
+
+3. Exploring, the visuals created for cleaning, exploring and analyzing the data are a part of this step. The visuals here don't need to be at their best, they're 
+just for the analyst to understand what's happening in the data.
+
+4. Analyzing, after data has been explored, during this step, the perfect analysis to answer a question is chosen i.e. to find the insight to answer a question.
+
+5. Sharing, once the insight has been found, the insight responsible for explaining the insight are part of the explanatory visuals and are created here.

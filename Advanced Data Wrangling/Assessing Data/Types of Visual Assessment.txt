@@ -1,0 +1,19 @@
+There are two ways to assess data, visually and programmatically.
+
+
+Visual asssessment is just visually looking at the data using pandas or a text editor or in excel.
+
+
+
+Programmatic assessment uses code to view certain parts of the data like functions or methods, like .info() .describe. Data can even be plotted.
+
+
+During assessment, issues are documented (written down) so that during cleaning, there is a easy way to directly review what issues need to be fixed.
+
+There are two types of visual assessments, directed and non-directed.
+
+Directed visual assessment focuses on looking through the dataset through in a jupyter notebook or a spreadsheet reader like excel. It can help detect issues such as missing values, ouliers or inconsistances in the data. Like spotting a student's age as 120 in a dataset of students. Some datasets are so large that spreadsheet applciation may crash, truncated data may be necessary in these cases, which means only viewing the first few rows.
+
+
+Non-directed visual assessment is looking at different portions of datasets closely such as scrolling through the data and looking for intruging and relevant issues. Once an issue has been found in a portion, that portion is inspected more closely. like finding the same student with different grades in a dataset of student scores.
+

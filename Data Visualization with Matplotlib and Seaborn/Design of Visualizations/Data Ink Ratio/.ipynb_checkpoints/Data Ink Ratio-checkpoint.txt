@@ -1,0 +1,9 @@
+Data ink ratio refers the amount of ink used to describe the data in comparison to (over) the amount of ink used for the rest of the visual.
+
+In general, the higher the data to ink ratio the better. Which means that the more the ink is being used to describe the data the better.
+A low data to ink ratio indicates that the visualization has a lot of non-data elements to it, and should be removed.
+
+In the example images, it can be seen that graphs that utlize a background, unneeded axes titles, colors, 3d elements (shadows and gradients) all decrease the data
+to ink ratio and should be fixed.
+
+An example of fixing the data-ink ratio in a graph can be seen the "After improvment" image.

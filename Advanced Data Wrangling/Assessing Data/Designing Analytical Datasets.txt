@@ -1,0 +1,21 @@
+Analytical data is data that helps perform analysis like: producing visualizations, EDA, statistical analysis and training machine larning models.
+
+
+Analytical data can be built on top of master data, which is data that is the core data in a company.
+
+
+For example a product's revenue data can be the master data and the analytical data can be the aggregation and trends of that data over time.
+
+Having tidy data can make data more analytical.
+
+An important factor to take into account is using multiple data sources, which can be merged to have a single dataset. It's important to know which part of the merged dataset should be focused on. Should a merged company dataset focus on the people or the products?
+
+Unity of analysis refers to the primary entity or object being focused on in the analysis. While a unity of observation is the item to be observed.
+
+
+Enriching data is when the current dataset is merged with additional information. Like when there is a zip code in a a dataset, merging information about the zipcode that can be found online can add information about the average ages in that zip code, population etc with unique keys. 
+
+
+When designing certain datasets, especially time series datasets, it's important to take into accounte the data granulatrity (Resolution), like knowing how often to take a reading from a thermometer, once a day, once a week, once a month?.
+
+Merged data can be merged based on a level of aggregation. Should population information be aggregated based on states, country or continent?

@@ -1,0 +1,18 @@
+A bad data visual is basically a visualization that does not convey the message well. 
+
+A visualization should not mislead, or hide or distact from the message. If it does, it can be considered to be a bad visualization and needs to be changed.
+
+An example of which is making a small difference seem much larger than it is, like when there is only a 4% difference and the graph makes it look like one is twice
+as large as the other part (zooming in on the difference).
+
+It's important to keep track of colors. Some colors, like red, indicate that one portion of the graph is more important than another.
+
+
+Some visuals need to take into account their nature. Such as pie charts not being 3D, as humans have trouble correct understanding 3D pie charts. There is also 
+arc lengths in racetrack charts not being the same length even though they are the same percentage, which could be misleading.
+
+Sometimes, like when the chart is small (does not contain too many inputs), a simple statement could be used instead of the visualization.
+
+Adding extra information in the visuals should be avoided. It's best to be simple.
+
+An interesting book called `how to lie with statistics` goes into many more concepts that should be avoided.

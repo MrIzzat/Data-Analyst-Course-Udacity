@@ -1,0 +1,20 @@
+Most users encounter flat files through csv or txt files.
+
+**Flat files** are simple files that have a uniform data format. There are many different types like .txt, .csv, .tsv (tab separeted files)
+
+They usually have several things in common:
+
+* Tabular data is in plain text
+* Each line is a data record
+* Each record has one or more values
+* The values (fields) are sperareted by delimiters
+
+
+The first row may be occupied by a header.
+
+
+.txt do not necessarily mean they are flat files. Like most readme files.
+
+
+.xls files are not flat files, as they contain more complex features like having multiple sheets. When opened, they display
+binary content only meant for microsoft excel to interpret.

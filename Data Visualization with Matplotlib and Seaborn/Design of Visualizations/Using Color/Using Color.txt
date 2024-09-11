@@ -1,0 +1,19 @@
+Color can be used to encode an additional variable or split data into groups.
+
+There are some issues that need to be considered.
+
+In the GDP example (See GDP example Image), adding color to the plot provided information about the geographic regions of the data points.
+
+In the bad example (See bad use of colors image), neither the colros nor the legend provided any useful additional information to the graph.
+
+
+Before adding color to a visualization, it should be determined if color is needed in the first place. If the visualization can be done perfectly in black and 
+white (with shades of grey), color shouldn't be added.
+
+If color should be added, using intense color should be avoided unless really needed. Instead, natural colors and pastelles should be used. Grey values can be 
+added to bright colors can make them less vibrant. Colors with high grey values have a softer feel and can be focused on for a longer period of time.
+
+Rainbow colors, primary colors and other bright (bold) colors creat noisy visualization that can strain the eye.
+
+Colors chosen should facilitate communication, i.e. what to should be focused on and what shouldn't be. Can be used to highlight key information.
+

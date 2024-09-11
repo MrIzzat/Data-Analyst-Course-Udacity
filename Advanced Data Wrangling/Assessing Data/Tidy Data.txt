@@ -1,0 +1,9 @@
+Tidy data is the opposite of dirty data, it's data with good structure.
+
+Each column can be a variable, meaning each column can be storied in a variable in a way that makes sense.
+
+
+Each row can be an observation.
+
+
+Each observation unit can be it's own table, which allows for connecting tables together.

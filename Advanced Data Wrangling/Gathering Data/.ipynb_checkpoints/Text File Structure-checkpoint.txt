@@ -1,0 +1,47 @@
+# What is a text file?
+
+* Text files are files that contain a specific character set
+
+* Don't have any rules for the structure 
+
+* Have no formatting (like italic and bold)
+
+* Have no media (like images and videos)
+
+* Have lines of text that are sperated in newlines (\n)
+
+* Can bew viewed and editede in simple text editors
+
+A word cloud can be useful for displaying the words that can be found in a text file. A **word cloud** basically displays all words found in a file
+in different font sizes depending on their frequency where more frequent words are displayed in a bigger font size.
+
+
+# Encoding and Character sets
+
+
+A character set is a collection of characters, symbols or glyphs used in writing and communication. It includes letters, numbers puncation marks and other 
+symbols found in different languges and scripts
+
+An encoding is a scheme that maps a unique numeric identifier (or code point) or each character in a character set. Thee code points are then stored in
+binary so computers can process and store them properly.
+
+Different encodings can use the same coding set but may assign different unique numeric identifiers to them.
+
+## Popular encoding and character sets:
+
+* American Standard Code for Information Interchange (ASCII): contains 128 characters including letters, digits, puncation and control characters. For example, A has an ASCII Value of 65, while 1 has an ACII value of 49
+
+* Unicode a character encoding standard that aims to represent all writing systems and characaters used world wide. It is used by most modern systems.
+Unicode covers letters, digits, symbols, non-latin scripts and more.
+    * Unicode Transformation Format 8-bit (UTF-8) is an encoding format used to convert Unicode characters into a unique numeric identifier
+
+The encoding of a pandas data frame can be specified when reading a file by using `encoding='utf8'`
+
+When a string is encoded in python using `encode('encoding')` it converts a string into a byte string, which is a sequence of bytes that are machine readable.
+python 3 automatically decodes a byte string to ASCII (but i think utf-8) so it's readable.
+
+A byte string can be converted to a character string using `decode('encoding')`.
+
+Python 3 only has a single string type called `str` that only holds unicode data
+
+Python 3 has two bytes types called `bytes` and `bytearray`. A bytes object is immutable, a bytearray is mutable.

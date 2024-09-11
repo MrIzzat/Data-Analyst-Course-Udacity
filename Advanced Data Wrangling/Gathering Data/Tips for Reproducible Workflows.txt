@@ -1,0 +1,23 @@
+# Tips for reproducible workflows
+
+## Folder names should be consistant
+
+A good format for folder names to follow is the the following:
+
+
+20230315_Microscopy_Image_Data.zip
+
+Where 20230315 follows the ISO date format: yearMonthDay.
+
+Everything afterwards contains a description of the data that it contains.
+
+"-" or "_"  may be better to use instead of spaces when naming folders.
+
+
+## Subfolders should be named constructively.
+
+For example, sub folders can follow the ISO date format while the main folder just has the year, if the subfolders
+rely on the date.
+
+
+## Creating a clear structure for data files within the .zip folder.

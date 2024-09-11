@@ -1,0 +1,33 @@
+Storing and publishing cleaned data comes at the end of the data wrangling process. The purpose is to save the work done and to be able to share it with others.
+
+
+There are many ways to do this:
+
+* Data can be saved using padnas `to_csv()` function. For example:
+
+        df.to_csv('./clean_data.csv', index=False, encoding='utf-8')
+
+    Where index=False specifies not to store the index, especially as a seperate column on the file.
+    encoding='utf-8'  ensures the data is stored in the correct format.
+
+
+* Data can also be stored onto a database (to sqlite using sqlalchemy). For example:
+
+    df.to_sql('clean_data', con=connection, if_exists='append', index_label='ID')
+
+    Where 'clean_data' represents the table name. 'con=connection' the connection to the database engine, 'if_exists='append'' what to do in the case that the
+    table already exists and 'index_label='ID'' to specify which column should be the ID column.
+
+
+It's important to have multiple versions of data throughout the data wrangling process. At the very least there should two versions, the **raw** data (directly 
+after the gathering stage) and the **cleaned** data.
+
+
+When storing clean data, there could be a structure around the data. There could be a documentation (doc folder), which could include strategies used when 
+gathering, assessing or cleaning the data. The structure could also include a data folder for the raw data files, a src folder that includes the source code 
+and jupyter notebooks and a results folder that contains the cleaned data files and analysis.
+
+
+Somtimes when cleaning a csv file, some of the data types of some of the columns are incorrect. After cleaning them, restoring the cleaned data back into a csv
+file may not retain the correct data types. A pickle file can be used to store the data as well as their data types. It can be used in pandas with the function 
+    `df.to_pickle('clean_data.pkl')`

@@ -1,0 +1,1 @@
+Some issues with cleaning need planning before taking action, such as dealing with outliers, duplicates or missing data.

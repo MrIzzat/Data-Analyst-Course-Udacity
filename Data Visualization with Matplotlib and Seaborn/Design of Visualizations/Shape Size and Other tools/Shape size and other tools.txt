@@ -1,0 +1,15 @@
+Different encodings can be used in addition to color, such as using different point shapes to represent data or different sizes. (See different shapes image)
+
+When using shapes to encode different values, they should be used to encode qualitatively (to encode different categories) instead of quantitatively.
+
+Although shades can be used to represent different values, they're not always great. Using colors is a great alternative.
+
+
+* Color and Shape are best used to encode categorical variables
+* The marker size can be used for adding additional quantitative information
+
+Even though they should be avoided to increase the data to ink variable and make the main information cleared, they can be used to add additional very useful 
+information about the visualization. But, if the main message starts to fade because of the additional encodings, the visual should be broken down into multiple 
+visuals that each convey it's own direct message.
+
+Check out the images to see examples of other encodings.

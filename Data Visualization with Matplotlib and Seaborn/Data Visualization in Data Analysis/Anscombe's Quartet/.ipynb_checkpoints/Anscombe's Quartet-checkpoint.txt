@@ -1,0 +1,2 @@
+Anscombe's Quartet refers to different datasets with differing data points that contain the exact same summary statistics (mean, standard deviation, correlation 
+etc.) yet when plotted are completely different (see the image). That's why it's always important to plot datasets instead of relying solely on summary statistics.

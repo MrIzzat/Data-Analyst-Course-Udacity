@@ -1,0 +1,3 @@
+Messy data is data that does not have a good structure; it's not organized.
+
+Dirty data is data that contains issues with the data itself, such as inaccurate data.

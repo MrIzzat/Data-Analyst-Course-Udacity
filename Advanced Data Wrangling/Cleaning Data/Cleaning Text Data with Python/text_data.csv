@@ -1,0 +1,4 @@
+sentiment,post
+positive,"""I love technology, especially data science!"""
+neutral,"""Data science is a part of newer technologies"""
+negative,"""Technology is a hindrance to our development"""

@@ -1,0 +1,32 @@
+It's impossible to list every possible issue in any dataset after gathering.
+
+
+But, they can be catogrized into 5 different categories (dimensions) according to data quality to measure the dirtiness and messiness of a dataset.
+
+Which are: 
+
+1. Accuracy
+2. Completeness
+3. Validity
+4. Consistency
+5. Uniquness 
+
+
+Completeness is a metric that helps understand if the data is enough to answer interesting questions or to solve a specific problem.
+Lack of completeness is usually shown in missing data. Like missing values in a survey by participants that don't want ot share certain information.
+In a dataset it's usually shown as NaN. The best way to solve completeness issues is by removing missing data. The missing data can also be replaced by 
+default values also known as non-zero replacements. Like replacing average age for missing ages in a marathon participants dataset.
+
+
+
+Validity is a metric used to evaluate how well data follow a defined set of rules for data, also known as a schema. Some issues with validity can be certain invalid values in the dataset. Or some data being in the wrong data type. Validity issues can be solved by making sure data is in the right range and uses the correct data types.
+
+
+Accuracy is a metric that helps to understand if the data reflects the reality it aims to predict. Accuracy may be able to pass completness and validity tests. Assumptions made on low accuracy data may lead to inaccuracte results. An example of an issue with accuracy is having every integer value of the dataset being +5 that it's supposed to be. It's difficult to fix accuracy issues, but there are a couple of ways where it can be resolved. The first would be to keep checking the data source to ensure the data isn't faulty. The second is to cross-reference data with another source.
+
+
+Consistency is a metric that helps understand if the data is following the standard format and if the information matches information with other data sources. Inconsistent data is a big problem, because it is able to pass both accuracy and validity tests. An example of consistency issue is using the mm/dd/yy format for one dataset and using dd/mm/yy for another dataset. The same cleaning code and assesment cannot be used for both datasets even though the same data is being represented. Consistency can sometimes be easy to fix, like fixing the format of one dataset or another. If the data is also inaccurate it may be a little more difficult. In this case, cross-reference data and ensuring accuracy may be needed before fixing consistency.
+
+
+Uniqueness is a metric that helps understand if there are duplictes or overlapping values in a dataset. Duplicated data can unnecessarily increase the size of the data and cause downstream accuracy problems. Detecting and removing may not be simple as sometimes data will represent the exact same information but have a slight difference, like two rows containing the names "John K Smith" and "John Smith", which row contains the useful data and which row should be removed. There are some ways to fix duplicate data overlaps, such as creating identifiers and progammatically remove duplicates.
+

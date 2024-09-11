@@ -1,0 +1,23 @@
+Before cleaning a dataset, it's important to keep an unmodified version of it stored.
+
+All the cleaning operations data are usually done a copy.
+
+`df.copy()` can be used in pandas to create a copy of the dataframe.
+
+
+The next step is to define the data cleaning plan, i.e. how the data should be cleaned. It can serve as documentation so that the work can be re-used.
+The actions are then implmented in code.
+
+After cleaning, the dataset is tested visually and programatically to confirm the data is cleaned. Datasets are compared before and after cleaning.
+
+
+There are two types of cleaning: **Manual cleaning** and **programmatic cleaning**.
+
+Retyping data or copying rows or columns are exmaples of manual cleaning.
+
+Manual cleaning is inefficient and error-prone
+
+Programmatic Data Cleaning utilizes code to clean data. It allows for automocatic cleaning processes and for avoiding human errors. It also allows for Reproducible workflows.
+
+
+Automatic data cleaning is strongly preffered over manual cleaning, to save time among the previously mentioned reasons.

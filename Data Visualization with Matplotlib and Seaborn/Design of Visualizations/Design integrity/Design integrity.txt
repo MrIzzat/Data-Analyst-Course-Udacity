@@ -1,0 +1,16 @@
+It's possible to lie in a visualization to deceive. 
+
+A common method is distorting the area in charts. An example can be seen an the image (Distortion in area. It's misleading because most users assume that the 
+baseline is set to zero, where in the example it was set to 34%, making the 4.6% difference in the bars seem like one bar is three times the size of the other.
+
+A variable "Lie Factor" compares the size of the effect shown in the graphic compared to (over) the size of the effect shown in the data. (See Lie factor formula 
+image)
+
+In the second example, the heights of the images are in the correct porportions. Yet the areas are not in the right porportions at all. 
+
+Based on the calculations in of the pixel sizes in the visualizaiton (See "Getting the size of effects for the lie factor" image), it was found that the graph 
+size ratio between the smallest and the largest values was around 3.79, yet in the data it was barely 1.2 (see "Getting the lie factor for the second example" 
+images).
+
+Dividing the values shows a lie factor of 3. A lie factor being anything over 1 makes the visualization misleading. The larger the lie factor, the more misleading
+the visualization is.

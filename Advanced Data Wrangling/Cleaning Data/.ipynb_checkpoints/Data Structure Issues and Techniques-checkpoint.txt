@@ -1,0 +1,48 @@
+Common Data Structure Issues Are:
+
+* Column headers are values instead of variable names
+* Multiple variables are stored in one column
+* Variables are stored in both rows and columns
+* Multiple types of observational units are stored in the same table
+* A single observational unit is stored in multiple tables
+
+
+Column headers being values instead of variables is a common issue. An example of this is having column names being a range, like 50-70 or <50, instead of a variable name.
+
+A function called unpivoting (melting) can be used to transform multiple columns into a single column. Unpivoting columns of ranges can be done by placing all ranges within a new single column called "Range" and a "Frequency" column can be added as well.
+
+Unpivoting is useful when converting a wide dataset (lots of columns) into a long format (less columns and more rows). 
+
+
+
+The opposite is pivoting. It converts a long dataset into wide dataset to create useful groupings. It's very similar to the `groupby()` dataframe function.
+
+
+Unpivoting is used when the dataset should be in a standard format to perform analysis. Pivoting is used to transform data into an easy understanding representation of that data.
+
+
+Transposing is another method to modify the data structure. It switches the columns with the rows. It's useful when columns are values instead of variables names and some of the rows contain variable names instead of values.
+
+
+Merging is another technique. When the same observational unit is used in multiple tables (like a movie id), they can be merged based on the common observational unit (as the key) and become a single wider dataset. Having a single table to perform anlyses on is more computational friendly and easier for a data analyst than having multiple tables.
+
+
+Data Appending (concatenating) is a similar technique to merging except that it tries to add two tables together based on the same variables and extending it downwards, i.e. adding their rows together while maintaining the same columns.
+
+
+Groupby and Aggregation on pandas tables (dataframes) used to get summary table of data. Groupby allows for grouping categorical data together to then apply an aggregation function such as sum() or mean() to get the overall information regarding a certain aggregation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
