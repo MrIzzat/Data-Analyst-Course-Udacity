@@ -201,3 +201,28 @@
 # conda version: 23.5.2
 +defaults/win-64::seaborn-0.13.2-py312haa95532_0
 # update specs: ['seaborn']
+==> 2024-09-21 18:04:05 <==
+# cmd: C:\Users\MrIzzat\miniconda3\Scripts\conda-script.py install nbconvert
+# conda version: 24.7.1
+-defaults/win-64::certifi-2024.7.4-py312haa95532_0
+-defaults/win-64::openssl-3.0.13-h2bbff1b_2
+-defaults/win-64::vs2015_runtime-14.27.29016-h5e58377_2
++defaults/win-64::certifi-2024.8.30-py312haa95532_0
++defaults/win-64::openssl-3.0.15-h827c3e9_0
++defaults/win-64::vs2015_runtime-14.40.33807-h98bb1dd_1
+# update specs: ['nbconvert']
+==> 2024-09-21 18:06:20 <==
+# cmd: C:\Users\MrIzzat\miniconda3\Scripts\conda-script.py install -c conda-forge pandoc
+# conda version: 24.7.1
+-defaults/win-64::ca-certificates-2024.7.2-haa95532_0
+-defaults/win-64::certifi-2024.8.30-py312haa95532_0
+-defaults/win-64::openssl-3.0.15-h827c3e9_0
+-defaults/win-64::vs2015_runtime-14.40.33807-h98bb1dd_1
++conda-forge/noarch::certifi-2024.8.30-pyhd8ed1ab_0
++conda-forge/win-64::ca-certificates-2024.8.30-h56e8100_0
++conda-forge/win-64::openssl-3.3.2-h2466b09_0
++conda-forge/win-64::pandoc-3.4-h57928b3_0
++conda-forge/win-64::ucrt-10.0.22621.0-h57928b3_0
++conda-forge/win-64::vc14_runtime-14.40.33810-ha82c5b3_21
++conda-forge/win-64::vs2015_runtime-14.40.33810-h3bf8584_21
+# update specs: ['pandoc']
