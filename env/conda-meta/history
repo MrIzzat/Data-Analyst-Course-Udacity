@@ -226,3 +226,8 @@
 +conda-forge/win-64::vc14_runtime-14.40.33810-ha82c5b3_21
 +conda-forge/win-64::vs2015_runtime-14.40.33810-h3bf8584_21
 # update specs: ['pandoc']
+==> 2024-09-21 19:36:30 <==
+# cmd: C:\Users\MrIzzat\miniconda3\Scripts\conda-script.py remove pandoc
+# conda version: 24.7.1
+-conda-forge/win-64::pandoc-3.4-h57928b3_0
+# remove specs: ['pandoc']
