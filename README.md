@@ -4,9 +4,9 @@ The  files contained in this repository are all of the files I created while lea
 
 ## The Nanodegree was split into three main courses:
 
-1. Introduction to Data Analysis with Pandas and numpy
-2. Advanced Data Wrangling
-3. Data Visualization with Matplotlib and Seaborn
+1. [Introduction to Data Analysis with Pandas and numpy](https://github.com/MrIzzat/Data-Analyst-Course/tree/master/Introduction%20to%20Data%20Analysis%20with%20Pandas%20and%20NumPy)
+2. [Advanced Data Wrangling](https://github.com/MrIzzat/Data-Analyst-Course/tree/master/Advanced%20Data%20Wrangling)
+3. [Data Visualization with Matplotlib and Seaborn](https://github.com/MrIzzat/Data-Analyst-Course/tree/master/Data%20Visualization%20with%20Matplotlib%20and%20Seaborn)
 
 ## Exercises: 
 There are also 8 [exercises](https://github.com/MrIzzat/Data-Analyst-Course/tree/master/Insession%20exercises) done during the sessions.
