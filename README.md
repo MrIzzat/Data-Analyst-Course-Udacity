@@ -13,6 +13,6 @@ There are also 8 [exercises](https://github.com/MrIzzat/Data-Analyst-Course/tree
 
 ## Projects done throughout the course:
 
-1. [Investigate a Dataset](https://github.com/MrIzzat/Data-Analyst-Course/tree/master/Projects/Project%201)
-2. [Real World Data Wrangling](https://github.com/MrIzzat/Data-Analyst-Course/tree/master/Projects/Project%202)
+1. [Investigate a Dataset](https://github.com/MrIzzat/Investigating-the-TMDb-Movie-Dataset)
+2. [Real World Data Wrangling](https://github.com/MrIzzat/Real-World-Data-Wrangling-With-Python)
 3. [Exploratory and Explanatory Data Analysis Using Visualizations](https://github.com/MrIzzat/Data-Analyst-Course/tree/master/Projects/Project%203)
