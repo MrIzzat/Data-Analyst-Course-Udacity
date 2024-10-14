@@ -1,0 +1,5 @@
+Solve the following SQL question https://leetcode.com/problems/find-followers-count/description/?envType=study-plan-v2&envId=top-sql-50
+
+Finished early? Please try with this one:https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/?envType=study-plan-v2&envId=top-sql-50
+
+Time: 20 minutes.

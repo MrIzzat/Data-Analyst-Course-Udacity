@@ -1,0 +1,17 @@
+When assessing data, the most important things to look out for are: Dirty data  and 
+
+
+Dirty data is data with issues like missing data or incorrect data. Which could happen when entering the data records. Data not following common rules and not followed consistently. It can cause forming inaccurate conclusions about the data.
+
+There is also messy data which is data with structural issues. There are many reasons why data can get messy, it can happen during or after the gathering process. For example, the data given is not clear. Like a medical professional taking notes very quickly and messily on a piece of paper, how would it be possible to translate that information onto a clean flat file. Or if data is coming from multiple sources, data may be stored by using different currencies, name formats and data types. Messy data can slow down analysis, visualization and modelling the data.
+
+To identify these data issues, visual assessment can be used like looking at data through a spreadsheet software like software and programmatic assessment by using a framework like pandas to assess the data.
+
+
+
+Data exploration vs data assessment:
+
+* Data exploration the goal is to look through and familiarize the data generally, without a specific structural while looking through it.
+* In data assessment, the goal is to pinpoint and analyze and quantify the data issues a systematic approach.
+
+* Data exploration may be used in data assessment or even before or after the assessment process.
